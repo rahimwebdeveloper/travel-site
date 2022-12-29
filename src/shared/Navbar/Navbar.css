@@ -1,17 +1,29 @@
 
-
+/* navbar */
 .navbar{
     display: flex;
     align-items: center;
     margin: 0;
+    border-bottom: 2px solid rgb(238, 238, 238);
+    
+}
+/* logo  start */
+
+.logo{
+    height: 100px;
+    background-color: orange;
 }
 
+
+/* logo end */
+
+/* navbar start */
 .nav-bar-list{
-    margin-left: 20px;
     width: 100%;
 
 }
 
+/* mini navbar  */
  .mini-nav{
     background-color:#2e2e2e;
     color: white;
@@ -24,6 +36,8 @@
     padding: 10px;
 }
 
+/* mini navbar end */
+
 .nav-bar-list ul{
     display: flex;
     width: 100%;
@@ -35,6 +49,8 @@
 
 .nav-bar-list ul li{
     list-style: none;
+    width: 100%;
     margin-right: 20px;
     font-size: 20px;
 }
+/* navbar end */

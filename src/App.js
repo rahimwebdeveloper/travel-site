@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>this is rahim </h1>
       <Routes>
-        <Route path='/Home' element={<Home />}></Route>
+        <Route path='/' element={<Home />}></Route>
+
       </Routes>
 
       
